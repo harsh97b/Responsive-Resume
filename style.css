@@ -33,7 +33,7 @@ body{
     width: 60%;
     display: block;
     margin: 10px auto;
-    border: 5px white solid;
+    border: 5px rgb(236, 201, 201) solid;
     border-radius: 30%;
     /* align-items: center; */
 }
