@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
 }
 body{
     background-color: rgb(129, 146, 146);
@@ -20,6 +24,9 @@ body{
 .left-content{
     padding: 1rem;
     color: cornsilk;
+}
+.profile-details{
+    width:100%;
 }
 .profile-image{
     width: 60%;
@@ -48,8 +55,63 @@ body{
     text-align: center;
     padding: 1rem;
 }
+/* .contact-item{
+    width: 100%;
+} */
+.social-media{
+    /* width: 100%; */
+    /* list-style-type: none; */
+    display: flex;
+    margin: 10px auto;
+    width: 100%;
+    /* align-items: center; */
+    justify-content: center;
+}
+.icon{
+    width: 8%;
+    margin: 0px 7%;
+}
+.personal-details{
+    margin: 10px 0px;
+}
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font: 0.7em sans-serif;
+}
+.personal-details .icon{
+    width:6%;
+    margin: 2px 5%;
+}
+.skills-title{
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1rem 0.5rem;
+}
+.skill-item{
+    margin: 15px 0px;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    text-transform: uppercase;
+    text-align: left;
+    margin: 5px 0px;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+    margin: 3px 0px;
+}
+
 .right-section{
     background-color: rgb(241, 241, 237);
     grid-column: 2/span 1;
     width: 90%;
+}
+.right-main-content{
+    padding: 2rem 3rem; 
 }
